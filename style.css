@@ -1,0 +1,77 @@
+h1 {
+    display: block;
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    height: 5vh;
+    width: 98%;
+    margin-left: 1%;
+}
+
+.personalDetailsHeader {
+
+    display: block;
+
+    margin-right: 85%;
+}
+
+.ProfileHeader {
+
+    display: block;
+
+    margin-right: 90%;
+}
+
+.WorkExpHeader {
+
+    display: block;
+
+    margin-right: 85%;
+}
+
+.ProjectsHeader {
+
+    display: block;
+
+    margin-right: 90%;
+}
+
+#profileText {
+
+    display: block;
+
+    margin-left: 2%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#highSchoolStudentText {
+
+    display: block;
+
+    margin-left: 5%;
+
+}
+
+.ntiHighSchoolText {
+
+    display: block;
+
+    margin-left: 5%;
+
+}
+
+.HightSchoolInfo {
+
+    display: block;
+
+    margin-left: 5%;
+}
