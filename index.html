@@ -1,76 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anton Levander Hübinette - CV</title>
+    <title>Anton Levander Hübinette</title>
+    <link href="https://fonts.cdnfonts.com/css/lato-5" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    <h1>Anton Levander Hübinette</h1>
-
 </head>
+
 <body>
 
-    <div id="mainContainer">
-        
-        <p class="personalDetailsHeader">Personal details</p>
+    <div id="parent">
+
+        <div id="left"><h1 id="header">Anton Levander Hübinette</h1>
+            <img src="profilePicture.jpg" alt="" style="width: 110px;">
+
+            <h3 id="PersonalDetails">Personal details</h3>
+
+            <dl>
+                <dt style="font-family: 'Lato', sans-serif;">Name</dt>
+                <dd style="font-family: 'Lato', sans-serif;">Anton Levander Hübinette</dd>
+                <dt style="font-family: 'Lato', sans-serif;">Address</dt>
+                <dd style="font-family: 'Lato', sans-serif;">Lägerhyddsvägen 2, hus 3, 752 37 Uppsala</dd>
+                <dt style="font-family: 'Lato', sans-serif;">Phone</dt>
+                <dd style="font-family: 'Lato', sans-serif;"> (+46) 705087207</dd>
+                <dt style="font-family: 'Lato', sans-serif;">Email</dt>
+                <dd>antonjobb07@gmail.com</dd>
+            </dl>
+
+
+            <div class="row">
+                <div class="column" style="background-color:#aaa; padding: 20px; width: 150px;">
+                    <h2 class="LanguageAndSkillsHeaders" style="font-family: 'Lato', sans-serif;">Languages</h2>
+                    <div class="languages">
+                    <div class="language">
+                        <div class="language-name" style="font-family: 'Lato', sans-serif;">Swedish</div>
+                        <div class="language-bar">
+                            <div class="language-per" per="100%" style="max-width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="languages">
+                    <div class="language">
+                        <div class="language-name" style="font-family: 'Lato', sans-serif;">English</div>
+                        <div class="language-bar">
+                            <div class="language-per" per="90%" style="max-width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="languages">
+                    <div class="language">
+                        <div class="language-name" style="font-family: 'Lato', sans-serif;">Spanish</div>
+                        <div class="language-bar">
+                            <div class="language-per" per="70%" style="max-width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="column" style="background-color:#bbb; padding: 20px; width: 150px;">
+                    <h2 class="LanguageAndSkillsHeaders">Skills</h2>
+                    <div class="languages">
+                    <div class="language">
+                        <div class="language-name" style="font-family: 'Lato', sans-serif;">HTML</div>
+                        <div class="language-bar">
+                            <div class="language-per" per="100%" style="max-width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="languages">
+                    <div class="language">
+                        <div class="language-name" style="font-family: 'Lato', sans-serif;">CSS</div>
+                        <div class="language-bar">
+                            <div class="language-per" per="90%" style="max-width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="languages">
+                    <div class="language">
+                        <div class="language-name" style="font-family: 'Lato', sans-serif;">Javascript (BACKEND)</div>
+                        <div class="language-bar">
+                            <div class="language-per" per="40%" style="max-width: 40%;"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <section>
+
+            <div id="right"><p id="aboutMe" style="font-family: 'Lato', sans-serif;">I am an ambitious and very sociable person with 3 years of experience in web development and working with others. In my free time, I enjoy expanding my knowledge of front-end and back-end development, as well as networking technology.</p><hr class="middleLine"></div>
+
+            <h2 id="education">Education</h2>
+
+            <div class="UpperSeconDiplomaTechProgramContainer">
+
+                <div id="TheTechnicalProgramText">
+                    <h3 style="font-family: 'Lato', sans-serif;">The Technology Program - </h3>
+                </div>
+
+                <div id="durationText">
+                    <h4>Aug 2023 - June 2026</h4>
+                </div>                
+
+            </div>
+
+            <div>
+                <h5 id="location" style="font-family: 'Lato', sans-serif;">NTI Upper Secondary School, UPPSALA</h5>
+            </div>
+
+            <div id="UpperSeconDiplomaTechProgramDesc">
+
+                <p class="UpperSeconDiplomaTechProgramDescList">Focus Information & Media Technology - <br> Program Specialization -- Programming.</p>
+                <p class="UpperSeconDiplomaTechProgramDescList3">Includes courses in programming and web development.</p>
+                <p class="UpperSeconDiplomaTechProgramDescList2"></p>
+            
+            </div>
+
+
+            <div id="UpperSeconDiplomaUpperSecEngContainer">
+
+                <div id="UpperSecondaryEngText">
+                    <h3 style="font-family: 'Lato', sans-serif;">Upper Secondary Engineer - Current</h3>
+                </div>
+
+            </div>
+
+            <div>
+                <h5 id="UpperSeconDiplomaEngLocation" style="font-family: 'Lato', sans-serif;">NTI Upper Secondary School, UPPSALA</h5>
+            </div>
+
+            <div id="UpperSeconDiplomaEngDesc">
+                <ol class="UpperSeconDiplomaEngDescList">
+                    <li>Program Specialization: Software Design</li>
+                    <li>Works well in group</li>
+                </ol>
+            </div>
+
+            <div class="WorkExperienceContainer">
+
+                <div id="WorkExperienceText">
+                    <h3>Work Experience</h3>
+                </div>
+
+                <div id="durationWorkText">
+                    <h4>2022 - ongoing</h4>
+                </div>                
+
+            </div>
+
+            <div id="TypeOfWorkText">
+                <h3 style="font-family: 'Lato', sans-serif;">Restaurant Assistant - </h3>
+            </div>
+
+            <div>
+                <h5 id="Worklocation" style="font-family: 'Lato', sans-serif;">MAX BURGERS, UPPSALA</h5>
+            </div>
+
+            <ol class="WorkAssignments">
+                <li>Work together with others</li>
+                <li>Good at interacting with customers</li>
+                <li>Stress-resistant</li>
+            </ol>
+
+
+            <div class="OtherProjectsContainer">
+
+                <div id="OtherProjectsText">
+                    <h3 style="font-family: 'Lato', sans-serif;">Other Projects</h3>
+                </div>              
+
+            </div>
+
+            <div>
+                <h5 id="OtherProjectslocation" style="font-family: 'Lato', sans-serif;">NTI Upper Secondary School, UPPSALA</h5>
+            </div>
+
+            <div id="TypeOfOtherProjectsText">
+                    <h4 style="font-family: 'Lato', sans-serif;">School Ambassador - </h4>
+            </div>
+
+            <h4 id="durationOtherProjectsText">2022 - ongoing</h4>
+
+            <div id="TypeOfOtherProjectsText">
+                    <h4 style="font-family: 'Lato', sans-serif;">Cafeteria Display - </h4>
+            </div>
+
+            <h4 id="durationOtherProjectsText2">2022 - ongoing</h4>
+
+        </section>
+
 
     </div>
 
-    <ul>
 
-        <li>Name: <b>Anton Levander Hübinette</b></li>
-        <li>Address: <b>Locksta 29, Uppsala 741 77</b></li>
-        <li>Phone number: <b>0705087207</b></li>
-        <li>Mail: <b>anton.levanderhubinette@elev.ga.ntig.se</b></li> <!--(byt ut till jobbmail)-->
-        <li>Birth Date: <b>2007-11-14</b></li>
-        <li>Place of Birth: <b>Uppsala</b></li>
-
-    </ul>
-
-
-
-    <div id="mainContainer">
-        
-        <p class="ProfileHeader">Profile</p>
-
-    </div>
-
-    <p id="profileText">I am a student in the Upper Secondary Engineering Program at NTI Gymnasiet in Uppsala. I have a high school diploma from the Technology Program at NTI Gymnasiet and have been a school ambassador for the past three years. 
-
-        I have a strong background in web development and networking technology, as I have helped develop the TV systems used by the school.</p>
-
-    <div id="mainContainer">
-        
-        <p class="WorkExpHeader">Work experience</p>
-
-    </div>
-
-    <h4 id="highSchoolStudentText">High School Student</h4>
-
-    <p class="ntiHighSchoolText">NTI Gymnasiet, Uppsala</p>
-
-    <ul class="HightSchoolInfo">
-        <li>1. During my four years in the Technology Program, I have developed a solid understanding of web development and web server programming, as well as computer and network technology. I have also participated in projects that involved both group work and individual work.
-
-        </li>
-    </ul>
-
-    <h4 id="highSchoolStudentText">High School Engineer</h4>
-
-    <p class="ntiHighSchoolText">NTI Gymnasiet, Uppsala</p>
-
-    <ul class="HightSchoolInfo">
-        <li>1. This year, I have deepened my knowledge of software design, worked extensively in groups, and adopted a work approach that mirrors real-world work environments.</li>
-    </ul>
-
-    <div id="mainContainer">
-        
-        <p class="ProjectsHeader">Projects</p>
-
-    </div>
-
-    <p class="HightSchoolInfo">Has developed a TV screen for use in connection with the sale of products in the cafeteria at NTI Gymnasiet, Uppsala.</p>
     
+
+
 </body>
+
 </html>

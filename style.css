@@ -1,77 +1,371 @@
-h1 {
-    display: block;
-    margin-left: 10%;
-    font-family: sans-serif;
+@import url('https://fonts.cdnfonts.com/css/lato-5');
+
+body {
+    background-color: rgb(231,231,231);
+    margin-top: 0px;
+    margin: 0;
 }
 
-#mainContainer {
+#parent {
+
+   display: table;
+   width: 100%;
+   height: 40px;
+
+}
+
+#left, #right {
+
+    display: table-cell;
+    vertical-align: top;
+    width: 33%;
+    height: 100vh;
+}
+
+#left {
+
+    background-color: lightgray;
+}
+
+#right {
+
+    display: table-column;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#header {
+
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+
+}
+
+#PersonalDetails {
+
+    margin-bottom: 100px;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+dl {
+
+    width: 400px;
+    padding: 5px;
+    border: 2px dashed rgb(41, 39, 39);
+    margin-bottom: 200px;
+    margin-left: 20px;
+    margin: 0;
+}
+
+dt {
+
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+dt::after {
+    content: ":";
+    font-weight: normal;
+}
+
+dd {
+
+    margin: 0 0 10px 0;
+    padding-left: 5px;
+}
+
+.LanguageAndSkillsHeaders {
+
+    margin-bottom: 550px;
+    margin: 0;
+    padding: 7px;
+
+}
+
+.languages {
+
+    width: 100%;
+    max-width: 600px;
+    padding: 0 7px;
+
+}
+
+.language-name {
+
+
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0;
+
+}
+
+.language-bar {
+
+    height: 8px;
+    width: 150px;
+    background: #282828;
+    border-radius: 3px;
+    position: relative;
+}
+
+.language-per {
+
+    height: 8px;
+    background: #d13639;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+
+.language-per::before {
+
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.language-per::after {
+
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+}
+
+.column {
+  float: left;
+  width: 12%;
+  margin-top: 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.middleLine {
+    width: 95%;
+    border-color: black;
+}
+
+#education {
+
+    display: block;
+    height: 200px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-top: -470px;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(238, 238, 238);
-    height: 5vh;
-    width: 98%;
-    margin-left: 1%;
+    flex-direction: column;
+    width: 100%;
 }
 
-.personalDetailsHeader {
+.UpperSeconDiplomaTechProgramContainer {
 
-    display: block;
-
-    margin-right: 85%;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
-.ProfileHeader {
+#UpperSeconDiplomaTechProgram {
 
-    display: block;
-
-    margin-right: 90%;
+    margin-top: -170px;
 }
 
-.WorkExpHeader {
+#location {
 
-    display: block;
-
-    margin-right: 85%;
+    margin-top: -155px;
+    margin-left: 5px;
 }
 
-.ProjectsHeader {
+#TheTechnicalProgramText {
 
-    display: block;
-
-    margin-right: 90%;
+    margin-top: -200px;
+    margin-left: 5px;
+    font-size: 15px;
 }
 
-#profileText {
+#durationText {
 
-    display: block;
-
-    margin-left: 2%;
+    margin-top: -195px;
+    margin-right: 530px;
+    color: gray;
+    font-size: 12px;
+    
 }
 
-ul {
-    list-style-type: none;
+.UpperSeconDiplomaTechProgramDescList {
+
+    margin-top: -130px;
+    margin-left: 10px;
+    font-size: 12px;
 }
 
-#highSchoolStudentText {
+.UpperSeconDiplomaTechProgramDescList2 {
 
-    display: block;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
 
-    margin-left: 5%;
+.UpperSeconDiplomaTechProgramDescList3 {
+
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+
+#UpperSeconDiplomaUpperSecEngContainer {
+
+    margin-top: -35px;
+}
+
+#UpperSeconDiplomaEngLocation {
+
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.UpperSeconDiplomaEngDescList {
+
+    margin-top: -10px;
+}
+
+#UpperSeconDiplomaUpperSecEngContainer {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#durationEngText {
+
+    margin-top: 0;
+    margin-left: 215px;
+    color: gray;
+    font-size: 15px;
 
 }
 
-.ntiHighSchoolText {
+#aboutMe {
 
-    display: block;
-
-    margin-left: 5%;
-
+    font-size: 12px;
+    margin-left: 5px;
 }
 
-.HightSchoolInfo {
+#WorkExperienceText {
 
-    display: block;
+    margin-top: -400px;
+    margin-left: 500px;
+    font-family: 'Lato', sans-serif;
+}
 
-    margin-left: 5%;
+#durationWorkText {
+
+    margin-top: -10px;
+    color: gray;
+    font-size: 15px;
+    margin-left: 690px;
+}
+
+#TypeOfWorkText {
+
+    margin-top: -370px;
+    margin-left: 500px;
+}
+
+#Worklocation {
+
+    margin-top: -10px;
+    margin-left: 500px;
+}
+
+.WorkAssignments {
+
+    margin-top: -10px;
+    margin-left: 500px;
+}
+
+#OtherProjectsText {
+
+    margin-top: -10px;
+    margin-left: 500px;
+}
+
+#durationOtherProjectsText {
+
+    margin-top: -35px;
+    margin-left: 650px;
+    color: gray;
+    font-size: 12px;
+}
+
+#TypeOfOtherProjectsText {
+
+    margin-top: -30px;
+    margin-left: 500px;
+}
+
+#UpperSecondaryEngText {
+
+    margin-left: 5px;
+    margin-top: -50px;
+    
+}
+
+#OtherProjectslocation {
+
+    margin-top: -10px;
+    margin-left: 500px;
+}
+
+#durationOtherProjectsText2 {
+
+    margin-left: 640px;
+    margin-top: -35px;
+    color: gray;
+    font-size: 12px;
+}
+
+@keyframes fillBars {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
